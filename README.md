@@ -34,10 +34,13 @@
         `views.py` request/response protocol handler.
 
 
-#16: Register playground app in the storefront/settings.py module ---> INSTALLED_APPS = [
-                                                                         ...INSTALLED_APPS,
-                                                                add      `'playground'`
-                                                                        ]
+#16: Register playground app in the storefront/settings.py module ---> 
+```
+INSTALLED_APPS = [
+    ...INSTALLED_APPS,
+    'playground'
+]
+```
 
 
 #17: Next Procedure in `./playgrounds/views.py`
