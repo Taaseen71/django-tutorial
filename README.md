@@ -64,11 +64,11 @@
 #35: Add Internal IP ----> 
         new variable in storefront/settings.py -->  
 ```
-                                            INTERNAL_IPS = [
-                                                # ...
-                                                '127.0.0.1'
-                                                # ...
-                                            ]
+INTERNAL_IPS = [
+    # ...
+    '127.0.0.1'
+    # ...
+]
 ```
 #35a:    refresh :8000 browser
 
