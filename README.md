@@ -45,14 +45,17 @@
 
 #32: Install Django Debug toolbar
 #32: new terminal --> `pipenv install django-debug-toolbar`  
-#33: in storefront/settings.py -->   INSTALLED_APPS = [
-                                        ...INSTALLED_APPS,
-                                        `'debug_toolbar'`
-                                    ]
-                                    MIDDLEWARE = [
-                                        ...MIDDLEWARE,
-                                        `'debug_toolbar.middleware.DebugToolbarMiddleware'`,
-                                    ]
+#33: in storefront/settings.py -->  
+```
+INSTALLED_APPS = [
+    ...INSTALLED_APPS,
+    'debug_toolbar'
+]
+MIDDLEWARE = [
+    ...MIDDLEWARE,
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+]
+```
 
 #34: in storefront/urls.py ---> `import debug_toolbar`
     in storefront/urls.py -> 
